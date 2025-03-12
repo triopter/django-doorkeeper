@@ -4,7 +4,7 @@ Django-Doorkeeper is a pluggable Django middleware that forces every visitor to 
 
 Doorkeeper **IS NOT SECURE** and should not be used for security purposes. Its intent is to protect a site from casual lookie-loos and stray bots. Under some circumstances you might do this with .htaccess and HTTP Basic Auth if your site is fronted with Nginx / Apache / etc. When it's not, this is a simple substitute.
 
-Individual users can be exempted from the password prompt. See [configuration documentation](./docs/configuration.md) for more information.
+Individual views can be exempted from the password prompt. See [configuration documentation](./docs/configuration.md) for more information.
 
 ## Installation
 
