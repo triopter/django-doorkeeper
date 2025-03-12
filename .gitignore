@@ -1,0 +1,44 @@
+# Data
+*.db
+*.log
+*.sqlite
+*.sqlite3
+*.tgz
+logs
+
+# Environment Variables
+.env
+.env*
+*.env
+
+# Misc
+*.bak
+*.idea/
+*.swp
+*.swo
+
+# IDE & Tools
+.vscode
+
+# OS
+.DS_Store
+
+# Python
+.pytest_cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+apicache-py3
+apicache
+dist
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+pids
+
+# Packaging a Python project
+.python-version
+poetry.lock

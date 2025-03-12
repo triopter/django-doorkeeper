@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doorkeeper Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      nav {
+        margin-bottom: 20px;
+      }
+      nav a {
+        margin-right: 10px;
+      }
+      .exit-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'public' %}">Public Page</a>
+    </nav>
+
+    <div class="content">{% block content %}{% endblock %}</div>
+
+    <form
+      method="post"
+      action="{% url 'doorkeeper:exit' %}"
+      class="exit-button"
+    >
+      {% csrf_token %}
+      <button type="submit">Exit Site Preview</button>
+    </form>
+  </body>
+</html> 
