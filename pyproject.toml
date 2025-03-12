@@ -1,6 +1,6 @@
 [project]
 name = "django-doorkeeper"
-version = "1.0.5"
+version = "1.0.7"
 requires-python = ">=3.9"
 description = "Dirty and insecure django pluggable to password-protect an entire website -- for instance, while under construction"
 readme = "README.md"

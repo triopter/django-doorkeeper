@@ -9,7 +9,7 @@ Individual views can be exempted from the password prompt. See [configuration do
 ## Installation
 
 ```sh
-pip install git+ssh://git@github.com:triopter/django-doorkeeper.git
+pip install django-doorkeeper
 ```
 
 Then configure as documented.
@@ -32,7 +32,7 @@ This repository includes a demo application to showcase Doorkeeper's functionali
 
    ```sh
    pip install django
-   pip install git+ssh://git@github.com:triopter/django-doorkeeper.git
+   pip install django-doorkeeper
    ```
 
 3. Run migrations and start the demo server:
