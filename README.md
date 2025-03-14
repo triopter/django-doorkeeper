@@ -54,4 +54,4 @@ python runtests.py
 
 ## Compatibility
 
-Doorkeeper has been tested with Python 3.13 and Django 5.1 but will almost certainly work on many earlier and later versions. Maybe if anyone every uses this, someday I'll get around to adding Tox and a test matrix.
+Doorkeeper has been tested with Python 3.13 and Django 5.1 but will almost certainly work on many earlier and later versions. Maybe if anyone ever uses this, someday I'll get around to adding Tox and a test matrix.
